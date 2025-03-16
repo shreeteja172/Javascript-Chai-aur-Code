@@ -29,3 +29,29 @@ console.log(yudh.__proto__);
 //It is used to access the prototype of the object
 console.log(yudh.length);
 
+console.log(yudh.toUpperCase());
+console.log(yudh.toLowerCase());
+console.log(yudh.indexOf("b"));
+//indexOf() is used to find the index of a character in a string
+console.log(yudh.charAt(4));
+
+const yudh2 = yudh.substring(3, 7);
+console.log(yudh2);
+
+const yudh3 = yudh.slice(3, 7);
+console.log(yudh3);
+
+
+const yudh4 = "           Mahabharat - A great epic.           ";
+console.log(yudh4.trim());
+//trim() is used to remove the white spaces from the beginning and end of the string
+
+const url = "https://www.google.com";
+console.log(url.startsWith("https"));
+console.log(url.endsWith("com"));
+console.log(url.includes("google"));
+console.log(url.repeat(3));
+//repeat() is used to repeat the string multiple times
+console.log(url.replace("google", "youtube"));
+//replace() is used to replace a string with another string
+
